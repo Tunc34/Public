@@ -1,0 +1,58 @@
+[
+  {
+    "id": "TX-1001",
+    "tip": "havale",
+    "zaman": "2026-09-29T10:15:00",
+    "tutar": 18000,
+    "aciklama": "Ekim kirası",
+    "alici": {"ad": "Mehmet Kaya", "tur": "individual", "ilk_kez": false, "hesap_yasi_gun": 2400},
+    "kanal": {"ad": "mobile", "cihaz_yeni": false},
+    "musteri": {"ort_islem_tutari": 4500, "bakiye": 62000, "gunluk_limit": 100000, "bugun_harcanan": 0},
+    "son_islemler": ["Eylül kirası - Mehmet Kaya 18.000 TL", "Market 850 TL", "Elektrik faturası 640 TL", "Ağustos kirası - Mehmet Kaya 18.000 TL"]
+  },
+  {
+    "id": "TX-1002",
+    "tip": "havale",
+    "zaman": "2026-09-29T14:40:00",
+    "tutar": 145000,
+    "aciklama": "güvenli hesap aktarımı",
+    "alici": {"ad": "Serkan Yıldız", "tur": "individual", "ilk_kez": true, "hesap_yasi_gun": 6},
+    "kanal": {"ad": "branch_mobile", "cihaz_yeni": false},
+    "musteri_notu": "Savcılıktan aradılar, hesabım terör soruşturmasında kullanılmış, parayı bu hesaba geçirmemi söylediler. Kimseye söylememem lazım.",
+    "musteri": {"ort_islem_tutari": 2200, "bakiye": 180000, "gunluk_limit": 200000, "bugun_harcanan": 0},
+    "son_islemler": ["Eczane 320 TL", "Market 1.100 TL", "Su faturası 210 TL", "Emekli maaşı yatışı 21.000 TL"]
+  },
+  {
+    "id": "TX-1003",
+    "tip": "havale",
+    "zaman": "2026-09-29T03:12:00",
+    "tutar": 60000,
+    "aciklama": "kira",
+    "alici": {"ad": "Kriptoborsa Teknoloji A.Ş.", "tur": "company", "ilk_kez": true, "hesap_yasi_gun": 900},
+    "kanal": {"ad": "mobile", "cihaz_yeni": true, "sifre_degisimi_saat_once": 3},
+    "musteri": {"ort_islem_tutari": 3000, "bakiye": 75000, "gunluk_limit": 150000, "bugun_harcanan": 0},
+    "son_islemler": ["Market 700 TL", "Netflix 190 TL", "Akaryakıt 1.500 TL"]
+  },
+  {
+    "id": "TX-1004",
+    "tip": "kart",
+    "zaman": "2026-09-29T19:05:00",
+    "tutar": 9500,
+    "aciklama": "Teknosa - kulaklık",
+    "alici": {"ad": "Teknosa", "tur": "merchant", "ilk_kez": false, "hesap_yasi_gun": 9000},
+    "kanal": {"ad": "pos"},
+    "musteri": {"ort_islem_tutari": 2500, "bakiye": 40000, "gunluk_limit": 50000, "bugun_harcanan": 1200},
+    "son_islemler": ["Teknosa 3.200 TL", "Hepsiburada 1.800 TL", "Restoran 950 TL"]
+  },
+  {
+    "id": "TX-1005",
+    "tip": "havale",
+    "zaman": "2026-09-29T11:00:00",
+    "tutar": 30000,
+    "aciklama": "fatura",
+    "alici": {"ad": "Ahmet Demir", "tur": "individual", "ilk_kez": true, "hesap_yasi_gun": 400},
+    "kanal": {"ad": "mobile", "cihaz_yeni": false},
+    "musteri": {"ort_islem_tutari": 5000, "bakiye": 12000, "gunluk_limit": 100000, "bugun_harcanan": 0},
+    "son_islemler": ["Market 600 TL"]
+  }
+]
